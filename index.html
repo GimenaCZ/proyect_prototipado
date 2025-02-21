@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <h1>
+                        TURISMO
+                    </h1>
+                </div>
+
+            <nav>
+                <div class="hamb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="">Quienes Somos</a></li>
+                        <li><a href="#sec">Lugares</a></li>
+                        <li><a href="#ter">Servicios</a></li>
+                    </ul>
+                </div>
+            </nav>
+            </header>
+        </div>
+
+        <div class="container">
+            <div class="hero-text">
+                <h1>Turismo Verde <span class="input">SEGURO</span></h1>
+                <h4>Viaje seguro y feliz</h4>
+            </div>
+            <div class="social">
+                <a target="_blank" href="https://twitter.com/MundoVerde_SOS"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/turismorioverde.ms/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://www.facebook.com/turismoverde.peru"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <i><p>
+                ¡Bienvenido a TURISMOVERDE, tu puerta de entrada a experiencias turísticas inolvidables en armonía con la naturaleza!🌿
+            </p></i>
+            <a href="https://www.youtube.com/watch?v=ON9kThYmYDU&ab_channel=AgenciadeNoticiasAndina" target="_blank">
+                <button type="button">Mejores Lugares >>></button>
+            </a>
+        </div>
+
+    </section>
+
+    <section class="container2" id="sec">
+        <div class="card">
+            <div class="imgBx">
+           
+            </div>
+            <div class="contentBx">
+                <h2> Machu Picchu</h2>
+                <h3>>>></h3>
+                <div class="year">
+                    <span></span>
+                    <span> </span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card2">
+            <div class="imgBx2">
+               
+            </div>
+            <div class="contentBx2">
+                <h2> Oasis de Huacachina</h2>
+                <h3>>>></h3>
+                <div class="year2">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card3">
+            <div class="imgBx2">
+              
+            </div>
+            <div class="contentBx2">
+                <h2> Lima, la capital peruana</h2>
+                <h3>>>></h3>
+                <div class="year2">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container3" id="ter">
+        <center><h1>SERVICIOS:</h1></center>
+        <div class="box">
+            <h2 class="name">BUSS</h2>
+            <a href="https://www.movilbus.pe/?gad_source=1&gclid=Cj0KCQiA5-uuBhDzARIsAAa21T-S9NZ4Xv_g4pUYkdHmGUyX2zy8sxDsKktxLc1tMKlJWftqg6DgjIkaAv_xEALw_wcB" target="_blank" class="buy">WEB PAGE</a>
+            <div class="circle"></div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Draw_bus.png" class="team">
+        </div>
+
+        <div class="box">
+            <h2 class="name">AVION</h2>
+            <a href="https://www.latamairlines.com/pe/es?gclsrc=aw.ds&gad_source=1&gclid=Cj0KCQiA5-uuBhDzARIsAAa21T--05EBHkPhBHlGm2YIH5E2OwEP4yfIxgB5A3UOzQ7ehBwmYaHNIF0aAnxFEALw_wcB" target="_blank" class="buy">WEB PAGE</a>
+            <div class="circle"></div>
+            <img src="https://static.vecteezy.com/system/resources/previews/001/208/469/non_2x/airplane-png.png" class="team">
+        </div>\
+        <center></center>
+        <button>
+            <h1>
+                CLICK EN "WEB PAGE" para ver las opciones de transporters
+            </h1>
+        </button>
+
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+
+    <script>
+        var typed = new Typed(".input", {
+            strings:["SEGURO.", "INCREIBLE.", "MAGICO.", "RELAJANTE."],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true 
+        });
+
+        var hamburger = document.querySelector(".hamb");
+        var navlist = document.querySelector(".nav-list");
+        var links = document.querySelector(".nav-list li");
+
+        hamburger.addEventListener("click", function(){
+        this.classList.toggle("click");
+        navlist.classList.toggle("open");
+        });
+
+        
+
+    </script>
+
+</body>
+</html>
