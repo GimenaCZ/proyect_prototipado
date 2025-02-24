@@ -182,12 +182,12 @@ span{
 
 .container2 .card{
     position: relative;
-    width: 320px;
-    height: 450px;
+    width: 450px;
+    height: 600px;
     background: #232323;
     border-radius: 20px;
     overflow: hidden;
-    background: url(../img/machupicchu.jpg);
+    background: url(../img/vinilo.png);
 }
 
 
@@ -282,23 +282,23 @@ span{
 .container2 .card2{
     margin-left: 60px;
     position: relative;
-    width: 320px;
-    height: 450px;
+    width: 450px;
+    height: 600px;
     background: #232323;
     border-radius: 20px;
     overflow: hidden;
-    background: url(../img/laguna-huacachina.jpg);
+    background: url(../img/carroceria.png);
 }
 
 .container2 .card3{
     margin-left: 60px;
     position: relative;
-    width: 320px;
-    height: 450px;
+    width: 450px;
+    height: 600px;
     background: #232323;
     border-radius: 20px;
     overflow: hidden;
-    background: url(https://www.tierrasvivas.com/img/lima-perus-capital-06-734);
+    background: url(../img/iluminacion.png);
 }
 
 
@@ -341,17 +341,16 @@ span{
     width: 270px;
 }
 
-.container2 .card2 .contentBx2{
+.container2 .card2 .contentBx2 {
     position: absolute;
     bottom: 0;
-    max-width: 300px;
     width: 100%;
     height: 100px;
     text-align: center;
     transition: 0.8s;
     z-index: 10;
     color: white;
-}
+  }
 
 .container2 .card2:hover .contentBx2{
     height: 210px;
@@ -424,7 +423,6 @@ span{
 .container2 .card3 .contentBx2{
     position: absolute;
     bottom: 0;
-    max-width: 300px;
     width: 100%;
     height: 100px;
     text-align: center;
@@ -613,8 +611,8 @@ span{
     background: #1695b4;
 }
 
-.container3 .box:nth-child(2) .circle,
-.container3 .box:nth-child(2) .buy{
+.container3 .box .circle,
+.container3 .box .buy{
 
     background: #206bc2;
 }
